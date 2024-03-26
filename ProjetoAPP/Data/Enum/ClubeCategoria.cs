@@ -9,8 +9,8 @@ namespace ProjetoAPP.Data.Enum
     {
         Corredor,
         Mulheres,
-        Cidades,
-        Trilhas,
+        Cidade,
+        Trilha,
         Resistencia
     }
 }

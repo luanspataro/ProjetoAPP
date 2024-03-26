@@ -17,8 +17,8 @@ namespace ProjetoAPP.Models
         public string? Imagem { get; set; }
         [ForeignKey("Endereco")]
         public int? EnderecoId { get; set; }
-        public Endereco? Address { get; set; }
-        public CorridaCategoria ClubeCategoria { get; set; }
+        public Endereco? Endereco { get; set; }
+        public CorridaCategoria CorridaCategoria { get; set; }
         [ForeignKey("AppUser")]
         public string? AppUserId { get; set; }
         public AppUser? AppUser { get; set; }

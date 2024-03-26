@@ -17,5 +17,6 @@ namespace ProjetoAPP.Data
         public DbSet<Corrida> Corridas { get; set; }
         public DbSet<Clube> Clubes { get; set; }
         public DbSet<Endereco> Enderecos { get; set; }
+
     }
 }
